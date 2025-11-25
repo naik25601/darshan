@@ -1,0 +1,35 @@
+git --version
+git config --global user.name "name"
+git config --global user.email "email id"
+
+git init
+
+ mkdir malli
+cd malli
+
+git add h.html
+git commit -m "h html file added"
+git log
+
+git branch
+git branch cse
+git checkout cse
+git log
+
+git checkout -b gpt/cse
+
+git add h1.html
+git commit -m "h1 file added "
+git log
+
+git checkout cse
+git merge gpt/cse
+git log
+
+git checkout master
+git merge cse
+git log
+
+git remote add origin (url id in git hub )
+git branch -m main
+git push -u origin main
